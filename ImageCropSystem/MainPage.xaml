@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ImageCropSystem.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations">
+    <StackLayout Margin="0,50,0,0">
+        <ScrollView>
+
+            <ffimageloading:CachedImage
+                x:Name="image"
+                HorizontalOptions="Fill"
+                Source="Image"
+                VerticalOptions="Start">
+                <ffimageloading:CachedImage.Transformations>
+                    <fftransformations:CropTransformation
+                        x:Name="crop"
+                        CropHeightRatio="1"
+                        CropWidthRatio="1"
+                        XOffset="0"
+                        YOffset="0"
+                        ZoomFactor="1" />
+                </ffimageloading:CachedImage.Transformations>
+            </ffimageloading:CachedImage>
+
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

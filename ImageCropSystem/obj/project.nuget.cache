@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "C2YK+Ec7W71GVb/IFVcdwrMdClEE08K5Q8sGBZf382WJNja1lfNR1xpWyk6A03phe+th/Oy0nlWnbthw7AobtA==",
+  "success": true,
+  "projectFilePath": "/Users/nathan-kim/Projects/ImageCropSystem/ImageCropSystem/ImageCropSystem.csproj",
+  "expectedPackageFiles": [
+    "/Users/nathan-kim/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/skiasharp/2.80.2/skiasharp.2.80.2.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/skiasharp.views.forms/2.80.2/skiasharp.views.forms.2.80.2.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/xamarin.ffimageloading/2.4.11.982/xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/xamarin.ffimageloading.transformations/2.4.11.982/xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/xamvvm.forms/1.0.5/xamvvm.forms.1.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

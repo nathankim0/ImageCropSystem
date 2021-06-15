@@ -1,0 +1,15 @@
+/Users/nathan-kim/Projects/ImageCropSystem/ImageCropSystem/bin/Debug/netstandard2.0/ImageCropSystem.deps.json
+/Users/nathan-kim/Projects/ImageCropSystem/ImageCropSystem/bin/Debug/netstandard2.0/ImageCropSystem.dll
+/Users/nathan-kim/Projects/ImageCropSystem/ImageCropSystem/bin/Debug/netstandard2.0/ref/ImageCropSystem.dll
+/Users/nathan-kim/Projects/ImageCropSystem/ImageCropSystem/bin/Debug/netstandard2.0/ImageCropSystem.pdb
+/Users/nathan-kim/Projects/ImageCropSystem/ImageCropSystem/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/nathan-kim/Projects/ImageCropSystem/ImageCropSystem/obj/Debug/netstandard2.0/PhotoCroppingPage.xaml.g.cs
+/Users/nathan-kim/Projects/ImageCropSystem/ImageCropSystem/obj/Debug/netstandard2.0/ImageCropSystem.AssemblyInfoInputs.cache
+/Users/nathan-kim/Projects/ImageCropSystem/ImageCropSystem/obj/Debug/netstandard2.0/ImageCropSystem.AssemblyInfo.cs
+/Users/nathan-kim/Projects/ImageCropSystem/ImageCropSystem/obj/Debug/netstandard2.0/ImageCropSystem.csproj.CoreCompileInputs.cache
+/Users/nathan-kim/Projects/ImageCropSystem/ImageCropSystem/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/nathan-kim/Projects/ImageCropSystem/ImageCropSystem/obj/Debug/netstandard2.0/ImageCropSystem.dll
+/Users/nathan-kim/Projects/ImageCropSystem/ImageCropSystem/obj/Debug/netstandard2.0/ref/ImageCropSystem.dll
+/Users/nathan-kim/Projects/ImageCropSystem/ImageCropSystem/obj/Debug/netstandard2.0/ImageCropSystem.pdb
+/Users/nathan-kim/Projects/ImageCropSystem/ImageCropSystem/obj/Debug/netstandard2.0/ImageCropSystem.csprojAssemblyReference.cache
+/Users/nathan-kim/Projects/ImageCropSystem/ImageCropSystem/obj/Debug/netstandard2.0/MainPage.xaml.g.cs

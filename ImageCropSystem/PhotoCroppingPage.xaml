@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ImageCropSystem.PhotoCroppingPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Photo Cropping"
+    BackgroundColor="LightGray">
+    <ScrollView>
+        <StackLayout Margin="0,30,0,0">
+            <StackLayout Orientation="Horizontal">
+                <Label x:Name="widthLabel" />
+                <Label x:Name="heightLabel" />
+            </StackLayout>
+            <Label Text="Width" />
+            <Entry x:Name="widthEntry" />
+            <Label Text="Height" />
+            <Entry x:Name="heightEntry" />
+            <Label Text="X" />
+            <Entry x:Name="xEntry" Text="0" />
+            <Label Text="Y" />
+            <Entry x:Name="yEntry" Text="0" />
+            <Button
+                Clicked="Button_Clicked"
+                Text="done"
+                VerticalOptions="StartAndExpand" />
+
+            <ContentView x:Name="contentView" VerticalOptions="StartAndExpand" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

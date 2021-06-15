@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{3D2E8E8E-5A0C-411F-9D02-7568E2608758}|Default">
+  <MonoDevelop.Ide.ItemProperties.ImageCropSystem.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4A9D594A-B527-492A-BC06-761FCDEF3E86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ImageCropSystem/PhotoCroppingPage.xaml">
+    <Files>
+      <File FileName="ImageCropSystem/MainPage.xaml.cs" Line="13" Column="22" />
+      <File FileName="ImageCropSystem/MainPage.xaml" Line="30" Column="1" />
+      <File FileName="ImageCropSystem/PhotoCropperCanvasView.cs" Line="1" Column="1" />
+      <File FileName="ImageCropSystem/PhotoCroppingPage.xaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ImageCropSystem" expanded="True">
+            <Node name="ImageCropSystem" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="PhotoCroppingPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ImageCropSystem.Android FirstBuild="True" PreferredExecutionTarget="Android.Pixel_4_API_30" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/nathan-kim/Projects/ImageCropSystem/ImageCropSystem/BitmapExtensions.cs" relfile="ImageCropSystem/BitmapExtensions.cs" line="14" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
