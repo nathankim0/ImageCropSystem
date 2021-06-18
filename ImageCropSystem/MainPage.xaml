@@ -4,25 +4,32 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
-    xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations">
-    <StackLayout Margin="0,50,0,0">
+    xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+    >
+    <StackLayout Margin="0,30,0,0">
         <ScrollView>
 
-            <ffimageloading:CachedImage
-                x:Name="image"
-                HorizontalOptions="Fill"
-                Source="Image"
-                VerticalOptions="Start">
-                <ffimageloading:CachedImage.Transformations>
-                    <fftransformations:CropTransformation
-                        x:Name="crop"
-                        CropHeightRatio="1"
-                        CropWidthRatio="1"
-                        XOffset="0"
-                        YOffset="0"
-                        ZoomFactor="1" />
-                </ffimageloading:CachedImage.Transformations>
-            </ffimageloading:CachedImage>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label x:Name="widthLabel" Text="320" />
+                    <Label x:Name="heightLabel" Text="368" />
+                </StackLayout>
+                <imagecropsystem:CustomCropTransformationImage
+                    x:Name="image"
+                    Margin="0,0,0,50"
+                    HorizontalOptions="Fill"
+                    Source="Image"
+                    VerticalOptions="Start">
+                    <imagecropsystem:CustomCropTransformationImage.Options>
+                        <x:Array Type="{x:Type x:Double}">
+                            <x:Double>-0.3</x:Double>
+                            <x:Double>-0.3</x:Double>
+                            <x:Double>1</x:Double>
+                            <x:Double>1</x:Double>
+                        </x:Array>
+                    </imagecropsystem:CustomCropTransformationImage.Options>
+                </imagecropsystem:CustomCropTransformationImage>
+            </StackLayout>
 
         </ScrollView>
     </StackLayout>
